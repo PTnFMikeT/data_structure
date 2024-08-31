@@ -1,4 +1,6 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
 main (){
 	int A[6][4], B[6][6], C[6][6], D[3][4], i,j,n=1;
@@ -107,5 +109,6 @@ main (){
 		}
 		printf("\n");
 	}
+    system ("pause");
+	return 0;
 }
-
