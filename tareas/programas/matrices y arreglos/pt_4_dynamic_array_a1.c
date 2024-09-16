@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 	{
 		fprintf(stdout,"| %d |\t", n[j]);
 	}
+	fprintf(stdout,"\n");
 	system ("pause");
 	return 0;
 }
